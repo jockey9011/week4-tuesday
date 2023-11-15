@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formularios</h1>
+    </header>
+
+    <br>
+
+    <main>
+        <form action="https://httpbin.org/post" method="post">
+            
+         <!-- CRUD
+            C: crear -> post 
+            R: read -> get
+            U: update -> put / path
+            D: delete -> delete
+        -->   
+        <label for="fullname">Nombre:</label>
+        <input type="text" id="fullname" name="fullname" autofocus placeholder="Ingrese su nombre" tabindex="1">
+
+        <br><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" autofocus placeholder="Ingrese su email" tabindex="2">
+
+        <!-- botones -->
+        <h3>Botones</h3>
+        <input type="submit" value="Enviar Formulario">
+
+        </form>
+    </main>
+
+</body>
+
+</html>
